@@ -16,7 +16,7 @@ function numericSensor() {
     numericSensorState = Number(result.trim());
   } catch (error) {
     console.error('Error executing Python script:', error);
-    numericSensorState = 0; // Default value in case of error
+    numericSensorState = 0;
   }
   return numericSensorState;
 }
