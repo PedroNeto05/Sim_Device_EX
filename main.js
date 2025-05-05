@@ -26,9 +26,9 @@ function numericSensorCallback() {
 }
 
 function setup() {
-  saiotDevice.setLogin("teste@teste.com", "0123456789");
-  saiotDevice.setBrokerUrl("mqtt://localhost:3002");
-
+  saiotDevice.setLogin("saiotect@gmail.com", "@2345678");
+  saiotDevice.setBrokerUrl("dev");
+  
   const numericSensor = new Sensor(
     "number",
     "Sensor numérico",
