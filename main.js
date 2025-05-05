@@ -2,7 +2,7 @@ const { Saiot, Sensor } = require("@saiot2/device");
 const { execSync } = require('child_process');
 
 const saiotDevice = new Saiot(
-  "Dispositivo geral",
+  "Dispositivo Demonstrçação Projeto Camarão",
   "geral",
   "Dispositivo que contêm todos os sensores e atuadores disponíveis"
 );
